@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Issue Certificate - SkillChain</title>
+  <style>
+    body {
+      background-color: #f3efff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 80px;
+    }
+    .form-box {
+      display: inline-block;
+      text-align: left;
+      padding: 30px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      min-width: 300px;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #6C63FF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    button:hover {
+      background-color: #5547ff;
+      transform: scale(1.03);
+      cursor: pointer;
+    }
+    footer {
+      margin-top: 60px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="color:#5A00D2; font-size:40px;">Issue a Certificate</h1>
+  <p style="color:#555; font-size:18px;">Fill in the details below to issue a certificate</p>
+
+  <form method="POST" class="form-box">
+    <label>Name:</label><br>
+    <input name="name" required><br>
+
+    <label>Course:</label><br>
+    <input name="course" required><br>
+
+    <label>Issuer:</label><br>
+    <input name="issuer" required><br>
+
+    <button type="submit">Issue</button>
+  </form>
+
+  <footer>&copy; 2025 SkillChain</footer>
+
+</body>
+</html>

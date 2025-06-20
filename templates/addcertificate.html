@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Certificate | SkillChain</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;  /* Removed purple background */
+            color: #333;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #4B0082;
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .form-container {
+            background-color: white;  /* Bright white background */
+            color: #333;
+            padding: 30px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-container input, .form-container select {
+            width: 100%;
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            background-color: #f4f4f9;
+            color: #333;
+            font-size: 18px;
+        }
+
+        .form-container input:focus, .form-container select:focus {
+            border-color: #6A5ACD;
+            outline: none;
+        }
+
+        .btn-submit {
+            background-color: #6A5ACD;
+            padding: 12px 40px;
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        .btn-submit:hover {
+            background-color: #483D8B;
+        }
+
+        .btn-back {
+            background-color: #B22222;
+            padding: 8px 30px;  /* Reduced button size */
+            font-size: 16px;  /* Reduced font size */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 20px;
+            width: auto;
+        }
+
+        .btn-back:hover {
+            background-color: #8B0000;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #999;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Add New Certificate</h1>
+
+        <form action="/add_certificate" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="course_name" placeholder="Course Name" required>
+            <input type="date" name="completion_date" placeholder="Completion Date" required>
+
+            <button type="submit" class="btn-submit">Add to Queue</button>
+        </form>
+
+        <a href="index.html" class="btn-back">Back to Admin Dashboard</a>
+    </div>
+
+    <footer>&copy; 2025 SkillChain | All Rights Reserved</footer>
+
+</body>
+</html>

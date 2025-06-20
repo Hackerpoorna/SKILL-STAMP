@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillChain Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #5b8f8f;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            color: #4B0082;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 12px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            color: white;
+            background-color: #6A5ACD;
+        }
+        .btn-logout {
+            background-color: #B22222;
+        }
+        footer {
+            margin-top: 80px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Admin Dashboard</h1>
+    <p>Manage all your certificates, users, and more here!</p>
+
+    <div class="container">
+        <a href="addcertificate.html" class="btn">Register New User</a>
+        <a href="issue.html" class="btn">Issue Certificate</a>
+        <a href="verify.html" class="btn">Verify Certificate</a>
+        <a href="test_db.html" class="btn">Test Database</a>
+        <a href="login.html" class="btn btn-logout">Logout</a>
+    </div>
+
+    <footer>&copy; 2025 SkillChain | All Rights Reserved</footer>
+
+</body>
+</html>

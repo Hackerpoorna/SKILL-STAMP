@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillStamp Admin Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            color: #4B0082;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 40px;
+        }
+        .container {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .btn {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px 45px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 20px;
+            color: white;
+            background-color: #6A5ACD;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #5a4eb1;
+        }
+        .btn-logout {
+            background-color: #B22222;
+        }
+        .btn-logout:hover {
+            background-color: #9e1e1e;
+        }
+        .dashboard-card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 250px;
+            margin: 20px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .dashboard-card h2 {
+            font-size: 24px;
+            color: #4B0082;
+        }
+        .dashboard-card p {
+            font-size: 16px;
+            color: #777;
+        }
+        footer {
+            margin-top: 80px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the SkillStamp Admin Dashboard</h1>
+    <p>Manage certificates, users, and verify skills easily from here!</p>
+
+    <div class="container">
+        <!-- Dashboard Cards -->
+        <div class="dashboard-card">
+            <h2>Upload Certificate</h2>
+            <p>Upload new skill certificates for users.</p>
+            <a href="upload_cert.html" class="btn">Upload</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Check Certificate Status</h2>
+            <p>Verify the status of existing certificates.</p>
+            <a href="check_status.html" class="btn">Check Status</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Issued Certificates</h2>
+            <p>View and manage all issued certificates.</p>
+            <a href="view_certificates.html" class="btn">View Certificates</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Verify Certificate</h2>
+            <p>Verify the authenticity of any certificate.</p>
+            <a href="verify_cert.html" class="btn">Verify</a>
+        </div>
+
+        <div class="dashboard-card">
+            <h2>Manage Users</h2>
+            <p>Manage and view registered users.</p>
+            <a href="manage_users.html" class="btn">Manage</a>
+        </div>
+
+        <a href="login.html" class="btn btn-logout">Logout</a>
+    </div>
+
+    <footer>&copy; 2025 SkillStamp | All Rights Reserved</footer>
+
+</body>
+</html>
