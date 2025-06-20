@@ -45,5 +45,4 @@ SkillChain is a decentralized Web3-based platform that allows educational instit
 
 ---
 
-## 📁 Project Structure
 
