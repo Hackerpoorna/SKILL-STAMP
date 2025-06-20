@@ -1,7 +1,7 @@
 
-# SkillChain 🔗 – Verified Skill Stamping on Blockchain
+# SkillStamp – Verified Skill Stamping on Blockchain
 
-SkillChain is a decentralized Web3-based platform that allows educational institutions and training organizations to issue blockchain-verified certificates. Users (students, professionals) can own, verify, and showcase their skill credentials as NFTs — enabling secure, tamper-proof resumes and smart contract-based hiring.
+SkillStamp is a decentralized Web3-based platform that allows educational institutions and training organizations to issue blockchain-verified certificates. Users (students, professionals) can own, verify, and showcase their skill credentials as NFTs — enabling secure, tamper-proof resumes and smart contract-based hiring.
 
 ---
 
